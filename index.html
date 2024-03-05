@@ -8,7 +8,7 @@
         body {
             background-color: #333333;
             color: #ffffff;
-            font-family: Arial,monospace;
+            font-family: Arial, monospace;
             margin: 0;
             padding: 0;
         }
@@ -20,6 +20,11 @@
         h1 {
             text-align: center;
         }
+        .tagline {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
         .section {
             margin-top: 30px;
         }
@@ -29,6 +34,13 @@
         }
         .list li {
             margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .list li img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
         }
         .list li a {
             color: #ffffff;
@@ -42,30 +54,47 @@
 <body>
     <div class="container">
         <h1>Hydra - Emulator Hub</h1>
-         <p class="tagline">Thanks Nintendo, but we've got it from here.</p>
+        <p class="tagline">Thanks Nintendo, but we've got it from here.</p>
         <div class="section">
             <h2>Emulators</h2>
             <ul class="list">
-                <li><a href="https://dolphin-emu.org/">Dolphin</a></li>
-                <li><a href="https://web.archive.org/web/20240304185214/https://github.com/yuzu-emu/yuzu-mainline/releases">Yuzu</a></li>
-                <li><a href="https://github.com/Ryujinx/Ryujinx">Ryujinx</a></li>
+                <li>
+                    <img src="https://icon2.cleanpng.com/20180426/tow/kisspng-gamecube-dolphin-wii-emulator-cleaning-inspired-5ae181e483f978.1748185315247282925406.jpg" alt="Dolphin Logo">
+                    <a href="https://dolphin-emu.org/">Dolphin</a>
+                </li>
+                <li>
+                    <img src="https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Yuzu_logo_2019.svg/640px-Yuzu_logo_2019.svg.png&w=640&q=50"width="25" height="25" alt="Yuzu Logo">
+                    <a href="https://web.archive.org/web/20240304185214/https://github.com/yuzu-emu/yuzu-mainline/releases">Yuzu</a>
+                </li>
+                <li>
+                    <img src="https://www.moosoft.com/wp-content/uploads/2022/11/Ryujinx-987654-1.png" alt="Ryujinx Logo">
+                    <a href="https://github.com/Ryujinx/Ryujinx">Ryujinx</a>
+                </li>
                 <!-- Add more emulators here -->
             </ul>
         </div>
         <div class="section">
             <h2>Firmware</h2>
             <ul class="list">
-                <li><a href="https://theprodkeys.com/switch-firmwares-download/">Firmware for yuzu and ryujinx</a></li>
+                <li>
+                    <!-- Placeholder for firmware logo -->
+                    <a href="https://theprodkeys.com/switch-firmwares-download/">Firmware for yuzu and ryujinx</a>
+                </li>
                 <!-- Add more firmware here -->
             </ul>
         </div>
         <div class="section">
             <h2>Keys</h2>
             <ul class="list">
-                <li><a href="https://theprodkeys.com/latest-yuzu-prod-keys/">Yuzu keys</a></li>
-                <li><a href="https://theprodkeys.com/ryujinx-prod-keys-title-keys/">Ryujinx keys</a></li>
+                <li>
+                    <!-- Placeholder for keys logo -->
+                    <a href="https://theprodkeys.com/latest-yuzu-prod-keys/">Yuzu keys</a>
+                </li>
+                <li>
+                    <!-- Placeholder for keys logo -->
+                    <a href="https://theprodkeys.com/ryujinx-prod-keys-title-keys/">Ryujinx keys</a>
+                </li>
                 <!-- Add more keys here -->
-            <p class="tagline">The Hydra always grows back.</p>
             </ul>
         </div>
     </div>
