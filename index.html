@@ -50,16 +50,17 @@
             color: #ffffff;
             padding: 20px;
             text-align: center;
-            position: fixed;
-            bottom: 0;
             width: 100%;
+            position: relative; /* Change position to relative */
+            bottom: 0;
         }
-        #tutorials iframe {
+        section {
+            margin-bottom: 40px;
+        }
+        iframe {
             width: 100%;
             max-width: 800px;
-            height: 400px;
-            margin: 20px auto;
-            display: block;
+            height: 450px;
         }
     </style>
 </head>
@@ -81,7 +82,7 @@
         <section id="tutorials">
             <h2>Tutorials</h2>
             <!-- Replace 'VIDEO_ID' with the ID of your YouTube video -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/waCNgkB4-k4" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
