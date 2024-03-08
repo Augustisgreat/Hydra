@@ -25,6 +25,18 @@
             font-style: italic;
             margin-bottom: 20px;
         }
+        nav {
+            text-align: center;
+            margin-top: -10px; /* Adjusted to move the nav to the top margin */
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .section {
             margin-top: 30px;
         }
@@ -49,17 +61,20 @@
         .list li a:hover {
             text-decoration: underline;
         }
+        .top-margin {
+            background-color: #f2f2f2; /* Light grey background */
+            height: 10px; /* Adjust the height of the top margin */
+        }
     </style>
 </head>
 <body>
+    <div class="top-margin"></div> <!-- Top margin -->
+    <nav>
+        <a href="index.html">Back to Homepage</a>
+    </nav>
     <div class="container">
         <h1>Hydra - Emulator Hub</h1>
         <p class="tagline">Thanks Nintendo, but we've got it from here.</p>
-        <br>
-         <nav>
-            <a href="index.html">Back to Homepage</a>
-    </nav>
-<br>
         <div class="section">
             <h2>Emulators</h2>
             <ul class="list">
